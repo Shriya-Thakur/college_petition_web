@@ -1,0 +1,61 @@
+body, td, pre {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+body {
+	background-color: #FFFFFF;
+}
+
+.mceVisualAid {
+	border: 1px dashed #BBBBBB;
+}
+
+img2 {
+    padding-right: 1em; 
+    padding-bottom: 1em;
+    max-width: 920px;
+    max-height: 400px;
+}
+
+
+img {
+
+    max-width: 100%;
+    display: block;
+
+    padding: 1em 0;
+}
+
+.quote {
+    border: 1px solid  #95bce2; padding: 1em; background-color: #e0e9eb; font-style:italic; 
+    background-image: url(/images/quote.png);
+    background-repeat: no-repeat;   
+    background-position: 0.2em 0.2em;
+
+    padding-left: 3em;
+    
+    background-color: #edeff4;
+    border: 1px solid #d4dae8;
+    margin-bottom: 1em;
+    
+}
+
+/* MSIE specific */
+
+* html body {
+	scrollbar-3dlight-color: #F0F0EE;
+	scrollbar-arrow-color: #676662;
+	scrollbar-base-color: #F0F0EE;
+	scrollbar-darkshadow-color: #DDDDDD;
+	scrollbar-face-color: #E0E0DD;
+	scrollbar-highlight-color: #F0F0EE;
+	scrollbar-shadow-color: #F0F0EE;
+	scrollbar-track-color: #F5F5F5;	
+}
+
+h1, h2, h3, h4 {
+    font-size: 12px;
+    font-weight: bold;
+}
+

@@ -59,7 +59,7 @@
   padding: 10px;
   margin: 5px 0 22px 0;
   display: inline-block;
-  border: none;
+  /*border-width:0px;*/
   background: #f1f1f1;
 }
 
@@ -67,6 +67,7 @@
 input[type=text]:focus, input[type=password]:focus {
   background-color: #ddd;
   outline: none;
+   
 }
 
 /* Set a style for all buttons */
@@ -94,7 +95,7 @@ button:hover {
 /* Float cancel and signup buttons and add an equal width */
 .cancelbtn, .signupbtn {
   float: left;
-  width: 50%;
+  width: 100%;
 }
 
 /* Add padding to container elements */
@@ -138,6 +139,7 @@ hr {
   font-size: 40px;
   font-weight: bold;
   color: #f1f1f1;
+  content: icon;
 }
 
 .close:hover,
@@ -151,6 +153,42 @@ hr {
   content: "";
   clear: both;
   display: table;
+}
+
+.input-container i {
+  visibility: hidden;
+  position:relative;
+  top:40px;
+  right:10px;
+}
+
+.input-container small {
+  visibility:Hidden;
+  position: relative;
+  top:auto;
+  bottom:0;
+  left: 0;
+}
+
+.input-container.success input{
+  border-width: 2px;
+  border-color:#2ecc71 ;
+}
+.input-container.error input{
+  border-width: 2px;
+  border-color:#e74c3c ;
+}
+.input-container.success i.fa-check-circle{
+  visibility: visible;
+  color:#2ecc71;
+}
+.input-container.error i.fa-exclamation-circle{
+  visibility: visible;
+  color:#e74c3c;
+}
+.input-container.error small{
+  color:#e74c3c;
+  visibility: visible;
 }
 
 /* Change styles for cancel button and signup button on extra small screens */
